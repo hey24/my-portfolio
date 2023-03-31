@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://hey24.github.io/my-portfolio",
+  "homepage": "https://hey24.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.14.1",
