@@ -129,8 +129,8 @@ const Navbar = () => {
     <Section>
       <Container>
         <NavItems>
-          <LogoSmallLink href="home"><LogoSmall src="./img/ben-logo.png" /></LogoSmallLink>
-          <LogoBigLink href="home"><LogoBig src="./img/logo.png" /></LogoBigLink>
+          <LogoSmallLink href="#about"><LogoSmall src="./img/ben-logo.png" /></LogoSmallLink>
+          <LogoBigLink href="#about"><LogoBig src="./img/logo.png" /></LogoBigLink>
           <NavLinks>
             <LinksList>
               <ListItem><ListLink href="#about">About</ListLink></ListItem>
