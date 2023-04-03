@@ -23,11 +23,6 @@ const Left = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
-  @media only screen and (max-width: 768px) {
-    // display: flex;
-    // justify-content: center;
-  }
 `
 const ProjectName = styled.h2`
 @media only screen and (max-width: 768px) {
