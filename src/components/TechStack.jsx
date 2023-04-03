@@ -7,6 +7,11 @@ const List = styled.ul`
   align-items: end;
 `;
 
+const TitleItem = styled.li`
+  margin-bottom: 1rem;
+  font-size: 2rem;
+`;
+
 const ListItem = styled.li`
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -27,7 +32,7 @@ const Image = styled.img`
 const TechStack = ({ techStack }) => {
   return (
     <List>
-      <ListItem>Tech Stack</ListItem>
+      <TitleItem>Tech Stack</TitleItem>
       {Object.keys(techStack).map((key) => (
         <ListItem key={key}>
           <Image src={techStack[key]} alt={key} />
