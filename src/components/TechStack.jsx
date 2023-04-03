@@ -10,6 +10,7 @@ const List = styled.ul`
 const TitleItem = styled.li`
   margin-bottom: 1rem;
   font-size: 2rem;
+  font-weight: 400;
 `;
 
 const ListItem = styled.li`
