@@ -41,7 +41,6 @@ const About = styled.p`
 
 const Title = styled.h1`
   font-size: 2rem;
-  font-weight: 200;
   margin-bottom: 2rem;
 
   @media only screen and (max-width: 768px) {
